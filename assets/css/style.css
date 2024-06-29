@@ -10,6 +10,7 @@
 
 body {
   background: #ede0d0;
+  overflow-x: hidden;
 }
 
 .nav-banner {
@@ -212,6 +213,7 @@ body {
 @media only screen and (max-width: 991px) {
   .main-about-us {
     padding: 0;
+    overflow-x: hidden;
   }
   .main-about-us .color-orange {
     font-size: 50px;
@@ -297,6 +299,9 @@ body {
   background: #ff6201;
 }
 @media only screen and (max-width: 991px) {
+  .main-gallery {
+    overflow-x: hidden;
+  }
   .main-gallery .imgs .hover-i .hover-i-img {
     margin-left: 0;
   }

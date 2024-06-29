@@ -16,6 +16,7 @@ $color-black-milk: #3c220b;
 
 body {
     background: #ede0d0;
+    overflow-x: hidden;
 }
 
 .nav-banner {
@@ -255,6 +256,7 @@ body {
 
     @media only screen and (max-width: $max-width) {
         padding: 0;
+        overflow-x: hidden;
 
         .color-orange {
             font-size: 50px;
@@ -367,6 +369,7 @@ body {
     }
 
     @media only screen and (max-width: $max-width) {
+        overflow-x: hidden;
         .imgs {
             .hover-i {
 
