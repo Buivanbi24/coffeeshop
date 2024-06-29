@@ -1,468 +1,55 @@
 ﻿<!DOCTYPE html>
-<html style="height: none;">
+<html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grand Coffee Shop</title>
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    <title>Technology AI</title>
+    <link href="assets/img/avatar-1.jpg" type="jpg" rel="website icon" />
     <!-- file css -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="assets/css/fontawesome.pro.6.0.0.css" rel="stylesheet" />
-    <link href="assets/css/aos.css" rel="stylesheet" />
-    <link href="assets/css/cssanimation.css" rel="stylesheet" />
-    <link href="assets/css/animate.min.css" rel="stylesheet" />
-    <link href="assets/css/jquery-backToTop.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-
 </head>
 <body>
-
-    <section class="nav-banner">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid mx-3">
-                <a class="navbar-brand fs-2 logo-top" href="#gandcoffee">GandCoffee</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse font-nav" id="navbarSupportedContent">
+    <section class="navbars">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link color-home" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
+                            <a class="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true">
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
                             </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
-
+                    
                 </div>
             </div>
         </nav>
     </section>
-
-    <section class="main-banner" id="banner">
-        <div class="container">
-            <div id="carouselExampleRide" class="carousel" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="content-left">
-                            <h4>Outstanding</h4>
-                            <h3>Coffee Shop</h3>
-                            <p>
-                                There are many variations of passages of Lorem Ipsum available,
-                                but the majority have suffered alteration in some form,
-                                by injected humour,
-                            </p>
-                            <a class="btn btn-dark" href="#">LEARN MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="content-left">
-                        <h4>Outstandings</h4>
-                        <h3>Coffee Shop</h3>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available,
-                            but the majority have suffered alteration in some form,
-                            by injected humour,
-                        </p>
-                        <a class="btn btn-dark" href="#">LEARN MORE</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="buttons">
-                <button class="carousel" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                    <span class="icon-left"><i class="fa-solid fa-chevron-left"></i></span>
-                </button>
-                <button class="carousel" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                    <span class="icon-right"><i class="fa-solid fa-chevron-right"></i></span>
-                </button>
-            </div>
-        </div>
+    <section class="main-top-content">
+        
     </section>
-
-    <section class="main-about-us" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="color-orange cssanimation leFadeInLeft sequence">
-                        ABOUT US
-                    </h2>
-                    <p>
-                        Full cleaning and housekeeping services for companies and households.<br />
-                        <br />
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply
-                    </p>
-                    <a class="btn btn-dark btn-about-us" href="#">Read More</a>
-                </div>
-                <div class="col-lg-6" data-aos="fade-left">
-                    <span class="bg-about-us">
-                        <img class="m-auto w-100" src="assets/images/about-img.png" />
-                    </span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="main-gallery" id="gallery">
-        <div class="container">
-            <div class="content-top">
-                <span class="color-orange cssanimation lePeek random">Our Gallery</span>
-                <p>
-                    Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'
-                    ndard dummy text ever since of the 1500s,
-                    when an unknown printer took a galley of type and scra make a type specimen book. It has
-                </p>
-            </div>
-
-            <div class="imgs">
-                <div class="row">
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="200">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-1.png" />
-
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="300">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-2.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="350">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-3.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="400">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-4.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="450">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-5.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="500">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-6.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="550">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-7.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="600">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-8.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 hover-i" data-aos="fade-down" data-aos-delay="650">
-                        <div class="hover-i-img">
-                            <img src="assets/images/img-9.png" />
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="button-gallery">
-                <a class="btn btn-dark " href="#">See More</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="main-services" id="services">
-        <div class="container">
-            <div class="content-top">
-                <h2 class="color-orange">
-                    Services
-                </h2>
-                <p>Typesetting industry lorem Ipsum is simply dummy text of the</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="contents" data-aos="fade-left" data-aos-duration="800">
-                        <div class="img-list">
-                            <img src="assets/images/icon1.png" />
-                        </div>
-                        <h2>
-                            Original Coffee
-                        </h2>
-                        <p>
-                            Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                        </p>
-                        <div class="btn-hover">
-                            <a href="#" class="btn btn-dark">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="contents" data-aos="zoom-in" data-aos-duration="600">
-                        <div class="img-list">
-                            <img src="assets/images/icon2.png" />
-                        </div>
-                        <h2>
-                            20 Coffee Flavors
-                        </h2>
-                        <p>
-                            Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                        </p>
-                        <div class="btn-hover">
-                            <a href="#" class="btn btn-dark">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="contents" data-aos="fade-right" data-aos-duration="800">
-                        <div class="img-list">
-                            <img src="assets/images/icon3.png" />
-                        </div>
-                        <h2>
-                            Pleasant Abient
-                        </h2>
-                        <p>
-                            Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                        </p>
-                        <div class="btn-hover">
-                            <a href="#" class="btn btn-dark">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="main-testimonial" id="testimonial">
-        <div class="container">
-            <div class="testimonial-top">
-                <h2 class="color-orange">Testimonial</h2>
-                <p>Eeven slightly believable. If you are going to use a passage of Lorem Ipsum, you need to</p>
-            </div>
-            <div class="testimonial-bt">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="content-list">
-                                <div class="ct-top">
-                                    <h3>MONILA</h3>
-                                    <img src="assets/images/quick-icon.png" />
-                                </div>
-                                <div class="ct-bt">
-                                    <span>
-                                        many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                        you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                                        All themany variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="content-list">
-                                <div class="ct-top">
-                                    <h3>MONILA</h3>
-                                    <img src="assets/images/quick-icon.png" />
-                                </div>
-                                <div class="ct-bt">
-                                    <span>
-                                        many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                        you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                                        All themany variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="content-list">
-                                <div class="ct-top">
-                                    <h3>MONILA</h3>
-                                    <img src="assets/images/quick-icon.png" />
-                                </div>
-                                <div class="ct-bt">
-                                    <span>
-                                        many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                                        you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                                        All themany variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="bg">
-            <img src="assets/images/banner-bg.png" />
-        </div>
-    </section>
-
-    <section class="main-contact-us" id="contact">
-        <div class="container-fluid">
-            <div class="contact-us">
-                <h2 class="color-orange">Contact Us</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 p-0">
-                    <div class="input-list">
-                        <div class="texts"><input type="text" name="name" placeholder="Name" /></div>
-                        <div class="texts"><input type="email" name="email" placeholder="Email" /></div>
-                        <div class="texts"> <input type="text" name="phone" placeholder="Phone Numbers" /></div>
-                        <div class="text-list"> <textarea cols="80" placeholder="Massage"></textarea></div>
-                        <div class="btn-us"><a class="btn btn-dark" href="#">SEND   </a></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 p-0">
-                    <div class="google-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51831.49727442892!2d106.57464633967825!3d11.134975307211453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174cc0fa89a5785%3A0x6e1bd0f69f8ce9b0!2zTmjDoCBIw6F0IE3hu7kgUGjGsOG7m2M!5e0!3m2!1svi!2s!4v1717252731563!5m2!1svi!2s"
-                                width="600" height="450" style="border:0;"
-                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer-top">
-                        <h3>About</h3>
-                        <p class="p-top">
-                            consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation u
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-
-                    <div class="footer-contents">
-                        <h3>Menu</h3>
-                        <ul>
-
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#services">Servical</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="col-lg-3">
-
-                    <div class="footer-contents">
-                        <h3>Useful Link</h3>
-                        <p class="p-center">
-                            Adipiscing
-                            Elis, sed do
-                            Eiusmod
-                            Tempor
-                            Incididunt
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-3">
-
-                    <div class="footer-content-list">
-                        <h3>Contact Us</h3>
-                        <ul class="ul-list">
-
-                            <li class="li-list">
-                                <a href="#">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                    <p>Address: Loram Ipusm</p>
-                                </a>
-                            </li>
-                            <li class="li-list">
-                                <a href="#">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <p>Call: +011234567890</p>
-                                </a>
-                            </li>
-                            <li class="li-list">
-                                <a href="#">
-                                    <i class="fa-solid fa-envelope"></i>
-                                    <p>Email: bibui@gmail.com</p>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <div class="footer-bottom">
-        <p>2024/06/02: All Rights Reserved. Buibi design</p>
-    </div>
-
-    <!-- file js -->
+    <section class="main-in-left"></section>
+    <section class="main-learning"></section>
+    <section class="main-work-support"></section>
     <section class="script">
-        <script src="assets/script/bootstrap.bundle.js"></script>
-        <script src="assets/script/jquery-3.7.1.js"></script>
-        <script src="assets/script/aos.js"></script>
-        <script src="assets/script/letteranimation.js"></script>
-        <script src="assets/script/jquery-backToTop.min.js"></script>
+        <script src="assets/script/bootstrap.js"></script>
+        <script src="assets/script/jquery-3.7.1.min.js"></script>
         <script src="assets/script/script.js"></script>
     </section>
 </body>
